@@ -8,12 +8,12 @@ import { BsChatDots } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-[120vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
+    <div className="w-full min-h-[100vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
       <h1 className="text-4xl md:text-5xl text-center font-[600] text-blue-700">
         Contact Us
       </h1>
       {/* Contact Form */}
-      <div className="w-[80vw] min-h-[100vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
+      <div className="w-[80vw] min-h-[90vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
         {/* First Name & Last Name */}
         <div className="flex items-center justify-between">
           <div className="flex flex-col">
@@ -103,7 +103,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Main Message</span>
             <div className="relative">
               <textarea
-                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[40vh] max-h-[30vh] w-[72vw] lg:w-[76vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[30vh] max-h-[20vh] w-[72vw] lg:w-[76vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your main message..."
               ></textarea>
