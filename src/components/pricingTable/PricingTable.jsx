@@ -52,7 +52,9 @@ const PricingTable = () => {
 
   return (
     <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300">
-      <h1 className="text-4xl md:text-5xl text-start font-[600] text-zinc-100 px-4 md:px-9">Pricing Table</h1>
+      <h1 className="text-4xl md:text-5xl text-start font-[600] text-zinc-100 px-4 md:px-9">
+        Pricing Table
+      </h1>
       <div className="flex items-center justify-evenly flex-wrap gap-10 xl:gap-0 py-20">
         {/* Pricing Cards */}
         {priceCard.map((p, i) => {
