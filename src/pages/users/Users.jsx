@@ -46,9 +46,9 @@ const Users = () => {
         </Link>
 
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-          <IoSearch className="absolute text-2xl left-3 top-[10px] text-zinc-300 " />
+          <IoSearch className="absolute text-2xl left-3 top-[10px] text-zinc-300" />
           <input
-            className="w-[35vh] md:w-[40vw] outline-none border-[1.6px] border-zinc-300 rounded-full py-2 pl-[45px] placeholder:text-zinc-300"
+            className="w-[35vh] md:w-[40vw] outline-none border-[1.6px] border-zinc-300 rounded-full py-2 pl-[45px] text-zinc-100"
             type="text"
             onChange={(e) => setSearchQuery(e.target.value)}
             value={searchQuery}
@@ -64,7 +64,7 @@ const Users = () => {
       </div>
 
       {/* Cards */}
-      <div className="flex items-center justify-center gap-2 whitespace-nowrap flex-wrap py-3">
+      <div className="flex items-center justify-center sm:justify-normal gap-2 whitespace-nowrap flex-wrap py-3">
         {filterUsers.length > 0 ? (
           filterUsers.map((u, i) => (
             <div

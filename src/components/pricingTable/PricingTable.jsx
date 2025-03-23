@@ -51,7 +51,7 @@ const PricingTable = () => {
   ]);
 
   return (
-    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300 flex items-center justify-evenly flex-wrap gap-10 lg:gap-0 py-20">
+    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300 flex items-center justify-evenly flex-wrap gap-10 xl:gap-0 py-20">
       {/* Pricing Cards */}
       {priceCard.map((p, i) => {
         return (

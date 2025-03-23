@@ -27,11 +27,12 @@ const ServiceCard = () => {
 
   return (
     <div className="w-full min-h-[80vh] bg-gradient-to-b from-blue-300 to-blue-500 py-20 flex gap-8 lg:gap-3 items-center justify-evenly flex-wrap">
+
       {cards.map((c, i) => {
         return (
           <div
             key={i}
-            className="w-[45vh] h-[49.5vh] border-[1.8px] border-zinc-300 rounded-lg flex flex-col items-center py-[6px]"
+            className="w-[45vh] h-[49.5vh] border-[1.8px] border-zinc-300 backdrop-blur-md bg-[#fafafa3b] rounded-lg flex flex-col items-center py-[6px]"
           >
             <div className="w-[43vh] h-[40vh] bg-blue-200 rounded-lg px-3">
               <h1 className="text-3xl font-[700] pt-6">{c.title}</h1>
@@ -40,7 +41,7 @@ const ServiceCard = () => {
                 {c.head.map((p, i) => (
                   <h2
                     key={i}
-                    className="rounded-full text-sm py-1 px-2 bg-blue-400"
+                    className="rounded-full text-sm text-white py-1 px-2 bg-blue-400"
                   >
                     {p}
                   </h2>

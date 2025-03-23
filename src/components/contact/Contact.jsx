@@ -10,17 +10,17 @@ const Contact = () => {
   return (
     <div className="w-full h-[120vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
       <h1 className="text-5xl text-center text-blue-700">Contact Us</h1>
-      <div className="w-[70vw] h-[100vh] rounded-xl shadow-xl border-[1.8px] border-zinc-300 px-5 flex flex-col">
+      <div className="w-[70vw] h-[100vh] rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col">
         <div className="flex justify-between">
           <div className="flex flex-col p-4">
             <span className="text-md font-[500]">First Name</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full py-2 w-[30vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[30vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your first name..."
               />
-              <RxPerson className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <RxPerson className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
 
@@ -28,11 +28,11 @@ const Contact = () => {
             <span className="text-md font-[500]">Last Name</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full py-2 w-[30vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[30vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your last name..."
               />
-              <RxPerson className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <RxPerson className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
         </div>
@@ -42,11 +42,11 @@ const Contact = () => {
             <span className="text-md font-[500]">Job Title</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full py-2 w-[30vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[30vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your job title..."
               />
-              <MdWorkOutline className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <MdWorkOutline className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
 
@@ -54,11 +54,11 @@ const Contact = () => {
             <span className="text-md font-[500]">Email Address</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full py-2 w-[30vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[30vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your email address..."
               />
-              <CiMail className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <CiMail className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
         </div>
@@ -68,11 +68,11 @@ const Contact = () => {
             <span className="text-md font-[500]">Company Name*</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full py-2 w-[30vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[30vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your company name..."
               />
-              <LiaIndustrySolid className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <LiaIndustrySolid className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
 
@@ -82,11 +82,11 @@ const Contact = () => {
             </span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full py-2 w-[30vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[30vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your interest..."
               />
-              <AiOutlineQuestion className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <AiOutlineQuestion className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
         </div>
@@ -96,11 +96,11 @@ const Contact = () => {
             <span className="text-md font-[500]">Main Message</span>
             <div className="relative">
               <textarea
-                className="border-[1px] border-zinc-300 rounded-md py-2 h-[28vh] w-[64vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[28vh] w-[64vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your main message..."
               ></textarea>
-              <BsChatDots className="absolute top-[10px] left-3 text-xl text-zinc-500" />
+              <BsChatDots className="absolute top-[10px] left-3 text-xl text-zinc-100" />
             </div>
           </div>
         </div>
