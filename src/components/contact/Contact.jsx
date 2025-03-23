@@ -8,19 +8,19 @@ import { BsChatDots } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-[100vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
+    <div className="w-full min-h-[110vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
       <h1 className="text-4xl md:text-5xl text-center font-[600] text-blue-700">
         Contact Us
       </h1>
       {/* Contact Form */}
-      <div className="w-[80vw] min-h-[90vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
+      <div className="w-[80vw] min-h-[110vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
         {/* First Name & Last Name */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between">
           <div className="flex flex-col">
             <span className="text-md font-[500]">First Name</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your first name..."
               />
@@ -32,7 +32,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Last Name</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your last name..."
               />
@@ -42,12 +42,12 @@ const Contact = () => {
         </div>
 
         {/* job & email */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between">
           <div className="flex flex-col">
             <span className="text-md font-[500]">Job Title</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your job title..."
               />
@@ -59,7 +59,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Email Address</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your email address..."
               />
@@ -69,12 +69,12 @@ const Contact = () => {
         </div>
 
         {/* company & interest */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between">
           <div className="flex flex-col">
             <span className="text-md font-[500]">Company Name*</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your company name..."
               />
@@ -88,7 +88,7 @@ const Contact = () => {
             </span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your interest..."
               />
@@ -98,12 +98,12 @@ const Contact = () => {
         </div>
 
         {/* message */}
-        <div className="flex items-center">
+        <div className="flex flex-col sm:flex-row items-center">
           <div className="flex flex-col">
             <span className="text-md font-[500]">Main Message</span>
             <div className="relative">
               <textarea
-                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[30vh] max-h-[20vh] w-[72vw] lg:w-[76vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[30vh] max-h-[20vh] w-[40vh] sm:w-[72vw] lg:w-[76vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your main message..."
               ></textarea>
