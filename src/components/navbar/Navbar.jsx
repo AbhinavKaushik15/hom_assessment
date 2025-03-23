@@ -11,17 +11,20 @@ function Navbar() {
       </h1>
 
       {/* NavLinks */}
-      <div className="flex gap-10 items-center">
-        <NavLink className="hidden sm:flex text-[2.8vh]" to="/">
+      <div className="flex gap-[5vw] items-center">
+        <NavLink
+          className="flex text-[2.4vh] md:text-[2.8vh] hover:text-black"
+          to="/"
+        >
           Home
         </NavLink>
         <NavLink
-          className="hidden sm:flex text-[2.8vh] hover:text-black"
+          className="flex text-[2.4vh] md:text-[2.8vh] hover:text-black"
           to="/users"
         >
           Users
         </NavLink>
-        <IoMenuOutline className="flex sm:hidden text-3xl text-zinc-600" />
+        {/* <IoMenuOutline className="flex sm:hidden text-3xl text-zinc-600" /> */}
       </div>
     </div>
   );
