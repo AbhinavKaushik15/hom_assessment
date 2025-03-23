@@ -37,18 +37,18 @@ const Users = () => {
   );
 
   return (
-    <div className="flex flex-col items-center bg-gradient-to-r from-pink-500 via-fuchsia-500 to-purple-500 w-full min-h-[120vh] px-10">
+    <div className="flex flex-col items-center bg-gradient-to-b from-blue-300 via-purple-500 to-blue-900 w-full min-h-[120vh] px-5 md:px-10">
       {/* Search Input */}
 
       <div className="w-full h-20 relative flex items-center">
         <Link className="absolute left-0" to="/">
-          <IoMdArrowRoundBack className="text-3xl text-white" />
+          <IoMdArrowRoundBack className="text-2xl md:text-3xl text-white" />
         </Link>
 
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           <IoSearch className="absolute text-2xl left-3 top-[10px] text-zinc-300 " />
           <input
-            className="w-[40vw] outline-none border-[1.6px] border-zinc-300 rounded-full py-2 pl-[45px] placeholder:text-zinc-300"
+            className="w-[40vh] md:w-[40vw] outline-none border-[1.6px] border-zinc-300 rounded-full py-2 pl-[45px] placeholder:text-zinc-300"
             type="text"
             onChange={(e) => setSearchQuery(e.target.value)}
             value={searchQuery}
@@ -64,7 +64,7 @@ const Users = () => {
       </div>
 
       {/* Cards */}
-      <div className="flex sm:justify-center xl:justify-normal gap-2 whitespace-nowrap flex-wrap py-3">
+      <div className="flex items-center justify-center gap-2 whitespace-nowrap flex-wrap py-3">
         {filterUsers.length > 0 ? (
           filterUsers.map((u, i) => (
             <div
