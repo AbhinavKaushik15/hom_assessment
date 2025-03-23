@@ -51,69 +51,72 @@ const PricingTable = () => {
   ]);
 
   return (
-    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300 flex items-center justify-evenly flex-wrap gap-10 xl:gap-0 py-20">
-      {/* Pricing Cards */}
-      {priceCard.map((p, i) => {
-        return (
-          <div
-            key={i}
-            className="w-[46vh] max-h-[80vh] backdrop-blur-md bg-[#fafafa59] rounded-xl shadow-xl border-[1.7px] border-zinc-300 py-6 px-4"
-          >
-            <div className="flex items-center gap-2">
-              <span className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
-                <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
-              </span>
-              <h1 className="text-[3.5vh] font-[500]">{p.title}</h1>
+    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300">
+      <h1 className="text-4xl md:text-5xl text-start font-[600] text-zinc-100 px-4 md:px-9">Pricing Table</h1>
+      <div className="flex items-center justify-evenly flex-wrap gap-10 xl:gap-0 py-20">
+        {/* Pricing Cards */}
+        {priceCard.map((p, i) => {
+          return (
+            <div
+              key={i}
+              className="w-[46vh] max-h-[80vh] backdrop-blur-md bg-[#fafafa59] rounded-xl shadow-xl border-[1.7px] border-zinc-300 py-6 px-4"
+            >
+              <div className="flex items-center gap-2">
+                <span className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
+                  <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
+                </span>
+                <h1 className="text-[3.5vh] font-[500]">{p.title}</h1>
+              </div>
+
+              <p className="text-xs pt-2">{p.description}</p>
+
+              <h1 className="text-4xl font-[700] text-blue-700 pt-5">
+                {p.price}
+              </h1>
+              <p className="text-xs text-zinc-500">{p.validity}</p>
+
+              <div className="flex flex-col pt-5 gap-4">
+                <div className="flex items-center gap-3">
+                  <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
+                    <TiTick className="text-blue-500 text-2xl" />
+                  </span>
+                  <p className="text-zinc-500 text-xs">{p.point1}</p>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
+                    <TiTick className="text-blue-500 text-2xl" />
+                  </span>
+                  <p className="text-zinc-500 text-xs">{p.point2}</p>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
+                    <TiTick className="text-blue-500 text-2xl" />
+                  </span>
+                  <p className="text-zinc-500 text-xs">{p.point3}</p>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
+                    <TiTick className="text-blue-500 text-2xl" />
+                  </span>
+                  <p className="text-zinc-500 text-xs">{p.point4}</p>
+                </div>
+              </div>
+
+              <div className="flex flex-col items-center pt-7">
+                <button className="w-full bg-blue-600 hover:bg-white hover:text-blue-600 hover:border-blue-600 hover:border-[1.2px] rounded-lg py-1 text-white">
+                  Get Started
+                </button>
+                <Link className="text-zinc-600 hover:text-zinc-400 mt-4">
+                  Learn more
+                </Link>
+              </div>
             </div>
-
-            <p className="text-xs pt-2">{p.description}</p>
-
-            <h1 className="text-4xl font-[700] text-blue-700 pt-5">
-              {p.price}
-            </h1>
-            <p className="text-xs text-zinc-500">{p.validity}</p>
-
-            <div className="flex flex-col pt-5 gap-4">
-              <div className="flex items-center gap-3">
-                <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
-                  <TiTick className="text-blue-500 text-2xl" />
-                </span>
-                <p className="text-zinc-500 text-xs">{p.point1}</p>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
-                  <TiTick className="text-blue-500 text-2xl" />
-                </span>
-                <p className="text-zinc-500 text-xs">{p.point2}</p>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
-                  <TiTick className="text-blue-500 text-2xl" />
-                </span>
-                <p className="text-zinc-500 text-xs">{p.point3}</p>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <span className="flex items-center justify-center w-5 h-5 bg-blue-100 rounded-full">
-                  <TiTick className="text-blue-500 text-2xl" />
-                </span>
-                <p className="text-zinc-500 text-xs">{p.point4}</p>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center pt-7">
-              <button className="w-full bg-blue-600 hover:bg-white hover:text-blue-600 hover:border-blue-600 hover:border-[1.2px] rounded-lg py-1 text-white">
-                Get Started
-              </button>
-              <Link className="text-zinc-600 hover:text-zinc-400 mt-4">
-                Learn more
-              </Link>
-            </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 };
