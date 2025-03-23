@@ -39,7 +39,7 @@ const ServiceCard = () => {
               <div className="w-[43vh] min-h-[40vh] bg-blue-100 flex flex-col justify-center rounded-lg px-3 py-3">
                 <h1 className="text-3xl font-[700] leading-none">{c.title}</h1>
                 <p className="font-[400] leading-none pt-2">{c.description}</p>
-                <div className="flex gap-2 pt-4 whitespace-nowrap flex-wrap">
+                <div className="flex gap-2 pt-4 whitespace-nowrap flex-wrap mt-5 sm:mt-0">
                   {c.head.map((p, i) => (
                     <h2 key={i} className="rounded-full text-md sm:text-sm text-white py-1 px-2 bg-blue-400">{p}</h2>
                   ))}
@@ -48,7 +48,7 @@ const ServiceCard = () => {
               {/* Explore Section */}
               <div className="w-full flex justify-between items-center px-5 py-3">
                 <h1 className="text-lg font-[500]">Explore</h1>
-                <span className="flex items-center justify-center w-7 h-7 rounded-sm bg-zinc-100">
+                <span className="flex items-center justify-center w-7 h-7 rounded-sm backdrop-blur-md bg-[#fafafa04]">
                   <FaArrowRight />
                 </span>
               </div>

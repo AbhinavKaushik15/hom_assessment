@@ -54,6 +54,7 @@ const Users = () => {
             value={searchQuery}
             placeholder="search users..."
           />
+          {/* input clear/close icon */}
           {searchQuery.length > 0 && (
             <IoMdClose
               onClick={() => setSearchQuery("")}

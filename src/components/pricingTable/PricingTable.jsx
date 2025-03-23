@@ -51,7 +51,7 @@ const PricingTable = () => {
   ]);
 
   return (
-    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300">
+    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300 pt-8">
       <h1 className="text-4xl md:text-5xl text-start font-[600] text-zinc-100 px-4 md:px-9">
         Pricing Table
       </h1>
