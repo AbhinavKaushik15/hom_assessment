@@ -27,7 +27,7 @@ const ServiceCard = () => {
 
   return (
     <div className="w-full min-h-[80vh] bg-gradient-to-b from-blue-200 to-blue-500 py-20">
-      <h1 className="text-4xl md:text-5xl font-[600] text-start text-blue-700 px-4 md:px-9">Our Services</h1>
+      <h1 className="text-4xl md:text-5xl font-[600] text-start text-white px-4 md:px-9">Our Services</h1>
       <div className="flex gap-8 lg:gap-3 items-center justify-evenly flex-wrap mt-14">
         {cards.map((c, i) => {
           return (

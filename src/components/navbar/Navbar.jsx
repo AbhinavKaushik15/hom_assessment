@@ -4,7 +4,7 @@ import { IoMenuOutline } from "react-icons/io5";
 
 function Navbar() {
   return (
-    <div className="fixed top-0 left-0 z-[10] w-full h-14 bg-[#1d1b1b7e] flex items-center justify-between text-zinc-400 px-5 md:px-6">
+    <div className="fixed top-0 left-0 z-[10] w-full h-14 bg-[#1d1b1bcc] flex items-center justify-between text-zinc-400 px-5 md:px-6">
       {/* logo */}
       <h1 className="logo text-zinc-600 text-[2.4vh] tracking-tighter md:text-[1.7vw] font-[500] leading-0">
         House of Marktech
@@ -13,13 +13,13 @@ function Navbar() {
       {/* NavLinks */}
       <div className="flex gap-[5vw] items-center">
         <NavLink
-          className="flex text-[2vh] md:text-[2.8vh] hover:text-black"
+          className="flex text-[2vh] md:text-[2.8vh] hover:text-zinc-600"
           to="/"
         >
           Home
         </NavLink>
         <NavLink
-          className="flex text-[2vh] md:text-[2.8vh] hover:text-black"
+          className="flex text-[2vh] md:text-[2.8vh] hover:text-zinc-600"
           to="/users"
         >
           Users

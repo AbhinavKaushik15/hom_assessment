@@ -9,11 +9,11 @@ import { BsChatDots } from "react-icons/bs";
 const Contact = () => {
   return (
     <div className="w-full min-h-[100vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
-      <h1 className="text-4xl md:text-5xl text-center font-[600] text-blue-700">
+      <h1 className="text-4xl md:text-5xl text-center font-[600] text-white">
         Contact Us
       </h1>
       {/* Contact Form */}
-      <div className="w-[80vw] min-h-[95vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
+      <div className="w-[84vw] min-h-[95vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
         {/* First Name & Last Name */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
           <div className="flex flex-col">
