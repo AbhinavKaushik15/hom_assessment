@@ -15,7 +15,7 @@ const Contact = () => {
       {/* Contact Form */}
       <div className="w-[80vw] min-h-[110vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
         {/* First Name & Last Name */}
-        <div className="flex flex-col sm:flex-row items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
           <div className="flex flex-col">
             <span className="text-md font-[500]">First Name</span>
             <div className="relative">
@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
 
         {/* job & email */}
-        <div className="flex flex-col sm:flex-row items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
           <div className="flex flex-col">
             <span className="text-md font-[500]">Job Title</span>
             <div className="relative">
@@ -69,7 +69,7 @@ const Contact = () => {
         </div>
 
         {/* company & interest */}
-        <div className="flex flex-col sm:flex-row items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
           <div className="flex flex-col">
             <span className="text-md font-[500]">Company Name*</span>
             <div className="relative">
@@ -98,7 +98,7 @@ const Contact = () => {
         </div>
 
         {/* message */}
-        <div className="flex flex-col sm:flex-row items-center">
+        <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-0">
           <div className="flex flex-col">
             <span className="text-md font-[500]">Main Message</span>
             <div className="relative">
@@ -112,7 +112,7 @@ const Contact = () => {
           </div>
         </div>
         {/* button */}
-        <button className="bg-blue-700 w-fit hover:bg-white text-white hover:text-blue-700 text-lg font-[600] ml-5 py-1 px-3 rounded-full border-[1.6px] border-blue-700">
+        <button className="bg-blue-700 w-fit hover:bg-white text-white hover:text-blue-700 text-lg font-[600] mx-auto md:ml-5 py-1 px-3 rounded-full border-[1.6px] border-blue-700">
           Submit Form
         </button>
       </div>
