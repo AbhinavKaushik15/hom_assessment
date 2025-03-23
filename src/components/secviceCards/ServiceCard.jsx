@@ -33,7 +33,7 @@ const ServiceCard = () => {
           return (
             <div
               key={i}
-              className="w-[45vh] h-[49.5vh] border-[1.8px] border-zinc-300 backdrop-blur-md bg-[#fafafa3b] rounded-lg flex flex-col items-center py-[6px]"
+              className="w-[45vh] h-[45vh] border-[1.8px] border-zinc-300 backdrop-blur-md bg-[#fafafa3b] rounded-lg flex flex-col items-center py-[6px]"
             >
               <div className="w-[43vh] h-[40vh] bg-blue-200 rounded-lg px-3 py-2">
                 <h1 className="text-3xl font-[700]">{c.title}</h1>
