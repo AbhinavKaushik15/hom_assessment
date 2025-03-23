@@ -8,7 +8,7 @@ import { BsChatDots } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="w-full h-[120vh] flex flex-col items-center py-5 gap-9">
+    <div className="w-full h-[120vh] flex flex-col items-center py-5 gap-9 bg-gradient-to-b from-blue-300 to-blue-500">
       <h1 className="text-5xl text-center text-blue-700">Contact Us</h1>
       <div className="w-[70vw] h-[100vh] rounded-xl shadow-xl border-[1.8px] border-zinc-300 px-5 flex flex-col">
         <div className="flex justify-between">

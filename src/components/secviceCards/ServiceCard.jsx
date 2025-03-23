@@ -26,7 +26,7 @@ const ServiceCard = () => {
   ]);
 
   return (
-    <div className="w-full min-h-[80vh] py-20 flex gap-8 lg:gap-3 items-center justify-evenly flex-wrap">
+    <div className="w-full min-h-[80vh] bg-gradient-to-b from-blue-300 to-blue-500 py-20 flex gap-8 lg:gap-3 items-center justify-evenly flex-wrap">
       {cards.map((c, i) => {
         return (
           <div

@@ -51,19 +51,19 @@ const PricingTable = () => {
   ]);
 
   return (
-    <div className="w-full min-h-[120vh] bg-zinc-100 flex items-center justify-evenly flex-wrap gap-10 lg:gap-0 py-20">
+    <div className="w-full min-h-[120vh] bg-gradient-to-b from-blue-500 to-blue-300 flex items-center justify-evenly flex-wrap gap-10 lg:gap-0 py-20">
       {/* Pricing Cards */}
       {priceCard.map((p, i) => {
         return (
           <div
             key={i}
-            className="w-[46vh] max-h-[80vh] bg-zinc-100 rounded-xl shadow-xl border-[1.7px] border-zinc-300 py-6 px-4"
+            className="w-[46vh] max-h-[80vh] backdrop-blur-md bg-[#fafafa59] rounded-xl shadow-xl border-[1.7px] border-zinc-300 py-6 px-4"
           >
             <div className="flex items-center gap-2">
               <span className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
                 <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
               </span>
-              <h1 className="text-lg font-[500]">{p.title}</h1>
+              <h1 className="text-[3.5vh] font-[500]">{p.title}</h1>
             </div>
 
             <p className="text-xs pt-2">{p.description}</p>

@@ -37,7 +37,7 @@ const Users = () => {
   );
 
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-blue-300 via-purple-500 to-blue-900 w-full min-h-[120vh] px-5 md:px-10">
+    <div className="flex flex-col items-center bg-gradient-to-b from-blue-500 to-blue-300 w-full min-h-[120vh] px-5 md:px-10">
       {/* Search Input */}
 
       <div className="w-full h-20 relative flex items-center">
