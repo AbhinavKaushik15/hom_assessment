@@ -13,7 +13,7 @@ const Contact = () => {
         Contact Us
       </h1>
       {/* Contact Form */}
-      <div className="w-[89vw] min-h-[110vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
+      <div className="w-[80vw] min-h-[110vh] pt-7 rounded-xl shadow-xl backdrop-blur-md bg-[#fafafa1a] border-[1.8px] border-zinc-300 px-5 flex flex-col gap-5">
         {/* First Name & Last Name */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
           <div className="flex flex-col">
