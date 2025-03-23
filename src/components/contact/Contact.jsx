@@ -20,7 +20,7 @@ const Contact = () => {
             <span className="text-md font-[500]">First Name</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[35vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your first name..."
               />
@@ -32,7 +32,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Last Name</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[35vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your last name..."
               />
@@ -47,7 +47,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Job Title</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[35vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your job title..."
               />
@@ -59,7 +59,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Email Address</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 text-white rounded-full py-2 w-[35vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your email address..."
               />
@@ -74,7 +74,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Company Name*</span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[35vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your company name..."
               />
@@ -88,7 +88,7 @@ const Contact = () => {
             </span>
             <div className="relative">
               <input
-                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[40vh] sm:w-[34vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-full text-white py-2 w-[35vh] sm:w-[34vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your interest..."
               />
@@ -103,7 +103,7 @@ const Contact = () => {
             <span className="text-md font-[500]">Main Message</span>
             <div className="relative">
               <textarea
-                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[30vh] max-h-[20vh] w-[40vh] sm:w-[72vw] lg:w-[76vw] pl-10 outline-none"
+                className="border-[1px] border-zinc-300 rounded-md text-white py-2 h-[30vh] max-h-[20vh] w-[35vh] sm:w-[72vw] lg:w-[76vw] pl-10 outline-none"
                 type="text"
                 placeholder="Enter your main message..."
               ></textarea>
