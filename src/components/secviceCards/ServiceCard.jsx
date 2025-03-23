@@ -26,17 +26,17 @@ const ServiceCard = () => {
   ]);
 
   return (
-    <div className="w-full min-h-[80vh] py-10 flex flex-wrap gap-3 items-center justify-center">
+    <div className="w-full min-h-[80vh] py-20 flex gap-8 lg:gap-3 items-center justify-evenly flex-wrap">
       {cards.map((c, i) => {
         return (
           <div
             key={i}
-            className="w-[23vw] h-[49.5vh] border-[1.8px] border-zinc-300 rounded-lg flex flex-col items-center py-[6px]"
+            className="w-[45vh] h-[49.5vh] border-[1.8px] border-zinc-300 rounded-lg flex flex-col items-center py-[6px]"
           >
-            <div className="w-[22vw] h-[40vh] bg-blue-200 rounded-lg px-3">
+            <div className="w-[43vh] h-[40vh] bg-blue-200 rounded-lg px-3">
               <h1 className="text-3xl font-[700] pt-6">{c.title}</h1>
               <p className="font-[400] leading-none pt-2">{c.description}</p>
-              <div className="flex gap-3 pt-4 whitespace-nowrap flex-wrap">
+              <div className="flex gap-2 pt-4 whitespace-nowrap flex-wrap">
                 {c.head.map((p, i) => (
                   <h2
                     key={i}

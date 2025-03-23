@@ -20,6 +20,7 @@ const Users = () => {
     }
   };
 
+  // Debounce functionality
   useEffect(() => {
     const timeOut = setTimeout(() => {
       getUsers();
@@ -28,6 +29,7 @@ const Users = () => {
     return () => clearTimeout(timeOut);
   }, []);
 
+  // filter function
   const filterUsers = users.filter(
     (user) =>
       user.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
