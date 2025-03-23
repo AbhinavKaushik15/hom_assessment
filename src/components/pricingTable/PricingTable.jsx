@@ -57,7 +57,7 @@ const PricingTable = () => {
         return (
           <div
             key={i}
-            className="w-[46vh] h-[80vh] bg-zinc-100 rounded-xl shadow-xl border-[1.7px] border-zinc-300 py-6 px-4"
+            className="w-[46vh] max-h-[80vh] bg-zinc-100 rounded-xl shadow-xl border-[1.7px] border-zinc-300 py-6 px-4"
           >
             <div className="flex items-center gap-2">
               <span className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center">
